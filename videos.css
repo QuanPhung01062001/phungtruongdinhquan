@@ -1,0 +1,96 @@
+.videos-news{
+	margin-top: 4em;
+	width: 1900px;
+	height: 900px;
+	background-color: #008bc6;
+	background-image: url(assets/wworl.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.ct-video-news{
+	width: 80%;
+	height: 100%;
+/*	background-color: #CCC;*/
+	margin: 0 auto;
+}
+.hehe{
+	width: 48%;
+	height: 70px;
+	margin-top: 10px;
+	/*background-color: black;*/
+	float: left;
+}
+.hehe h3{
+	color: white;
+	text-transform: uppercase;
+	padding-top: 18px;
+}
+.box-ct-videos-news{
+	width: 100%;
+	height: 800px;
+	/*opacity: 0.5;*/
+/*	background-color: pink;*/
+	float: left;
+	margin-top:15px;
+}
+.box-ct-videos-news .chia2{
+	width: 48%;
+	height: 100%;
+/*	background-color: blue;*/
+	float: left;
+}
+.chia2 .box-3{
+	width: 100%;
+	height: 30%;
+/*	background-color: gray;*/
+	/*opacity: 0.5;*/
+	float: left;
+}
+.chia2 .diff{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.box-3 .box-ct-pic{
+	width: 44%;
+	height: 100%;
+	/*background-color: red;*/
+	float: left;
+}
+.box-3 .box-ct-text{
+	width: 53%;
+	height: 48%;
+	/*background-color: blue;*/
+	float: left;
+	margin-left: 15px;
+}
+.box-3 .box-ct-text p{
+	color: white;
+	font-size: 17px;
+}
+.box-3 .box-ct-text p span{
+	font-weight: lighter;
+	font-size: 15px;
+}
+.box-ct-video-yt{
+	width: 90%;
+	height: 400px;
+/*	background-color: gray;*/
+	float: left;
+}
+.text-bellow-yt{
+	width: 82.2%;
+	height: 120px;
+	/*background-color: black;*/
+	float: left;
+	margin-top: 25px;
+}
+.text-bellow-yt p{
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+}
+.text-bellow-yt p span{
+	font-weight: lighter;
+	font-size: 16px;
+}

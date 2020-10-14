@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+ <script src="js/jquerysl.js"></script>
+</head>
+<body>
+	<div class="page">
+		<div class="header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-1"></div>
+					<div class="col-xl-1"> <!-- icon -->
+						<a href="#" data-toggle="tooltip" title="Follow on Facebook">
+							<i class="fab fa-facebook-f" style="color: #999999;padding-top: 0.6em;padding-left: 0.6em"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" title="Follow on Instagram">
+							<i class="fab fa-instagram" style="color: #999999;padding-top: 0.6em;padding-left: 0.6em"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" title="Follow on Twitter">
+							<i class="fab fa-twitter" style="color: #999999;padding-top: 0.6em;padding-left: 0.6em"></i>
+						</a>
+						<a href="#" data-toggle="tooltip" title="Send us an email">
+							<i class="fal fa-envelope" style="color: #999999;padding-top: 0.6em;padding-left: 0.6em"></i>
+						</a>
+						<script>
+								$(document).ready(function(){
+  								$('[data-toggle="tooltip"]').tooltip();   
+								});
+						</script>
+					</div>
+					
+					<div class="col-xl-7">
+						<p>Chào mừng bạn đến với mẫu web dịch vụ của Quân Phùng</p>
+					</div>
+
+					<div class="col-xl-3">
+						<div class="box">
+							<input type="text" class="form-control" id="usr" style="width: 50%;height: 100%;float: left;border-radius: 5px" placeholder="Search...">
+						<button type="button" class="btn btn-secondary" style="width: 10%;height: 35px;float: left;border-radius: 5px;margin-left: 3px" ><i class="fas fa-search"></i></button>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/quavip.png" style="width: 60%;height: 60%;margin-top: 22px;margin-left: 6em">
+					</div>
+					<div class="col-md-7">
+						<div class="list">
+							<ul>
+								<li><a href="#">Trang chủ <br><span>Home</span></a></li>
+								<li><a href="#">Giới thiệu<br> <span>Introduce</span></a></li>
+								<li><a href="#">Dịch vụ<br><span>Services</span></a></li>
+								<li><a href="#">Tin tức <br><span>News</span></a></li>
+								<li><a href="#">Tuyển dụng <br><span>Recruitment</span></a></li>
+								<li><a href="#">Hình ảnh <br> <span>Images</span></a></li>
+								<li><a href="#">Liên hệ <br><span>Contact</span></a></li>
+
+							</ul>
+						</div>
+				</div>
+					<div class="col-md-2">
+						<button><p>Hồ sơ năng lực</p></button>
+					</div>
+			</div>
+		</div>
+	</div>					
+		<!-- <div class="khoi-slide">			
+			<div class="cac-slide">
+				<div class="slide active"><img src="assets/slider2-1.jpg"></div>
+				<div class="slide"><img src="assets/slider2.jpg"></div>
+			</div>
+
+			<div class="nut-slide">
+				<span id="btn-prev"><i class="fas fa-chevron-left"></i></span>
+				<span id="btn-next"><i class="fas fa-chevron-right"></i></span>
+			<ul>
+				<li class="active_nut"></li>
+				<li style="margin-left: 15px"></li>
+			</ul>
+			</div>
+		</div> -->
+
+		<div class="whitebox">
+			 <div class="text"> 
+				 <div class="duongvien"  style="margin-left: 14.6em;"></div>
+				 <h3>Chúng tôi cung cấp dịch vụ</h3>
+				 <div class="duongvien"></div>
+			</div>
+			
+			<div class="circle">
+				<div class="box-chua-cirlce">
+					<div class="box-trong-box-1"> <!-- Box chứa 3 vòng đầu -->
+						<div class="vongtron khac" style="margin-bottom: 100px;">
+						<img src="assets/codinh.jpg">
+					</div>		
+					<div class="vongtron diff" 
+						 style="margin-bottom: 100px;
+						 margin-left: 12.5%;
+						margin-right: 12.5%;">
+						<img src="assets/kcn.jpg">
+					</div>
+					<div class="vongtron khac" style="margin-bottom: 100px;">
+						<img src="assets/kcn.jpg">
+					</div>
+					</div>		
+					<div class="box-chua-chu">		<!-- 	Text vòng đầu -->
+						<div class="text-chu"> 
+							<h4>Bảo vệ mục tiêu cố định</h4>
+						</div>
+						<div class="text-chu diff" 
+						style="margin-left: 12.5%;
+						margin-right: 12.5%;" 					
+						>
+							<h4>Bảo vệ các sự kiện, lễ hội</h4>
+						</div>
+						<div class="text-chu">
+							<h4>Bảo vệ khu công nghiệp</h4>
+						</div>
+					</div>	
+					<div class="box-trong-box-1">   <!-- box chứa 3 vòng cuối -->
+						<div class="vongtron">
+						<img src="assets/vip.jpg">
+					</div>
+					<div class="vongtron diff" 
+						style="margin-bottom: 100px;
+						 margin-left: 12.5%;
+						margin-right: 12.5%;">
+						<img src="assets/ddong.jpg">
+					</div>
+					<div class="vongtron">
+						<img src="assets/nds.png">
+					</div>
+					</div>		
+					<div class="box-chua-chu">		<!-- 	text vòng cuối -->
+						<div class="text-chu"> 
+							<h4>Bảo vệ yếu nhân</h4>
+						</div>
+						<div class="text-chu diff" 
+						style="margin-left: 12.5%;
+						margin-right: 12.5%;" 					
+						>
+							<h4>Bảo vệ mục tiêu di động</h4>
+						</div>
+						<div class="text-chu">
+							<h4>Dịch vụ bảo vệ chất lượng cao</h4>
+						</div>
+
+					</div>	
+				</div>
+			</div>	
+		</div>
+
+		<div class="bluebox">
+			<div class="text-sau">
+				<div class="duongvien-sau" style="margin-left: 16em;"></div>
+				<h3>Tại sao nên chọn chúng tôi</h3>
+				<div class="duongvien-sau"></div>
+			</div>
+
+			<div class="btw">
+				<div class="leftbox">
+					<div class="ohayo">	<!-- Box to dung -->
+						<div class="text-1">
+							<p>Chúng tôi tự hào là một trong những đơn vị cung cấp dịch vụ bảo vệ uy tín, chuyên nghiệp nhất Việt Nam</p>
+						</div>
+
+						<div class="xaw">
+							<div class="left-xaw">
+								<h5>Hoạt động từ năm</h5>
+							</div>
+							<div class="right-xaw">
+								<h5>Quy mô hoạt động hơn</h5>
+							</div>
+						</div>
+
+						<div class="conso">
+							<div class="left-conso"><h2>2003</h2></div>
+							<div class="right-conso"><h2>5000</h2></div>
+						</div>
+
+						<div class="address-dc">
+							<div class="left-add">
+								<h3>26 chi nhánh, văn phòng</h3>
+							</div>
+							<div class="right-add">
+								<h3>nhân viên full-time, part-time</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rightbox">
+					<div class="rightbox-aha">
+					<p>
+						1. Hình ảnh mạnh mẽ thân thiện, hiện đại cho khách hàng <br>
+						2. Tác phong nhanh nhẹn, nghiệp vụ tinh thông <br>
+						3. Quyền lợi của khách hàng là trách nhiệm của Ngày & Đêm <br>4. Phí dịch vụ cạnh tranh hợp lý từ phổ thông đến cao cấp <br>5. Bảo hiểm trách nhiệm công cộng, bảo hiểm trách nhiệm 22 tỷ <br>
+						6. Áp dụng hệ thống quản lý chất lượng DVBV theo tiểu chuẩn ISO 9001:2015 <br>
+						7. Hệ thống kiểm soát chất lượng liên tục 24h/7
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tvdv">
+			<div class="tvdv-bn">
+				<p>Tư vấn dịch vụ bảo vệ tại trụ sở - Tp. Hồ Chí Minh</p>
+			</div>
+
+			<div class="box-ct-callme">
+				<div class="callme" style="margin-bottom:20px">
+		<!-- start	 -->			<div class="callme-ct-pic">
+						<img src="assets/sexy-man.png">
+					</div>
+					<div class="callme-ct-text">
+						<div class="ct-txt-1">
+							<p>Mr.Lâm - <span>0906.937.276</span></p>
+						</div>
+						<div class="ct-txt-2">
+						<p>lamtran@nightdaysecurity.com</p>
+			</div>
+<!-- finist -->									</div>
+				</div>
+				<div class="callme diff" style="margin-bottom:20px" >
+			<!-- start	 -->	<div class="callme-ct-pic">
+						<img src="assets/sery-girl.png">
+					</div>
+					<div class="callme-ct-text">
+						<div class="ct-txt-1">
+							<p>Mr.Dũng - <span>0906.937.276</span></p>
+						</div>
+						<div class="ct-txt-2">
+						<p>dungtran@nightdaysecurity.com</p>
+						</div>
+		<!-- finist -->		</div>
+				</div>
+				<div class="callme" style="margin-bottom:20px">
+						<div class="callme-ct-pic">
+						<img src="assets/sexy-man.png">
+					</div>
+					<div class="callme-ct-text">
+						<div class="ct-txt-1">
+							<p>Mr.Lâm - <span>0906.937.276</span></p>
+						</div>
+						<div class="ct-txt-2">
+						<p>lamtran@nightdaysecurity.com</p>
+			<!-- finist -->				</div>
+					</div>
+				</div>
+				<div class="callme">
+					<!-- start	 -->	<div class="callme-ct-pic">
+						<img src="assets/sery-girl.png">
+					</div>
+					<div class="callme-ct-text">
+						<div class="ct-txt-1">
+							<p>Mr.Dũng - <span>0906.937.276</span></p>
+						</div>
+						<div class="ct-txt-2">
+						<p>dungtran@nightdaysecurity.com</p>
+						</div>
+		<!-- finist -->		</div>
+				</div>
+				<div class="callme diff">
+						<!-- start	 -->	<div class="callme-ct-pic">
+						<img src="assets/sery-girl.png">
+					</div>
+					<div class="callme-ct-text">
+						<div class="ct-txt-1">
+							<p>Mr.Dũng - <span>0906.937.276</span></p>
+						</div>
+						<div class="ct-txt-2">
+						<p>dungtran@nightdaysecurity.com</p>
+						</div>
+		<!-- finist -->		</div>
+				</div>
+				<div class="callme">
+					<!-- start	 -->	<div class="callme-ct-pic">
+						<img src="assets/sery-girl.png">
+					</div>
+					<div class="callme-ct-text">
+						<div class="ct-txt-1">
+							<p>Mr.Dũng - <span>0906.937.276</span></p>
+						</div>
+						<div class="ct-txt-2">
+						<p>dungtran@nightdaysecurity.com</p>
+						</div>
+		<!-- finist -->		</div>
+				</div>
+			</div>
+
+			<div class="banner">
+				<img src="assets/bn.png">
+			</div>
+		</div>
+
+		<div class="videos-news">
+				<div class="ct-video-news">
+			<div class="hehe">
+				<h3>tin tức- sự kiện</h3>
+			</div>
+			<div class="hehe" style="margin-left: 2%">
+				<h3>videos</h3>
+			</div>
+
+				<div class="box-ct-videos-news">
+					<div class="chia2">
+						<div class="box-3">
+							<div class="box-ct-pic">
+								<img src="assets/n.jpg" style="width: 100%;height: 100%">
+							</div>
+							<div class="box-ct-text">
+								<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span>Tin tức admin</span></p>
+							</div>
+							<div class="box-ct-text" style="margin-top: 2%">
+								<p style="font-weight: lighter;">Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</p>
+							</div>
+						</div>
+						<div class="box-3 diff">
+							<div class="box-ct-pic">
+								<img src="assets/k.jpg" style="width: 100%;height: 100%">
+							</div>
+							<div class="box-ct-text">
+								<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span>Tin tức admin</span></p>
+							</div>
+							<div class="box-ct-text" style="margin-top: 2%">
+								<p style="font-weight: lighter;">Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</p>
+							</div>
+						</div>
+						<div class="box-3">
+							<div class="box-ct-pic">
+								<img src="assets/m.jpg" style="width: 100%;height: 100%">
+							</div>
+							<div class="box-ct-text">
+								<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span>Tin tức admin</span></p>
+							</div>
+							<div class="box-ct-text" style="margin-top: 2%">
+								<p style="font-weight: lighter;">Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</p>
+							</div>
+						</div>
+					</div>
+					<div class="chia2" style="margin-left: 2%">
+						<div class="box-ct-video-yt">
+							<!-- <video src="https://www.youtube.com/watch?v=_52w0fhE62E&feature=emb_logo.mp4" type="video/mp4"></video> -->
+							<iframe width="600px" height="400px" src="https://www.youtube.com/embed/_52w0fhE62E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<div class="text-bellow-yt">
+							<p>BẢO VỆ NGÀY & ĐÊM ĐẨY MẠNH CÔNG TÁC PHÒNG NGỪA - PHÒNG CHỐNG CHÁY NỔ<br><span>Hotline tư vấn: --</span></p>
+						</div>
+						
+					</div>
+				</div>
+		</div>
+				</div>
+
+			<div class="ttdn">
+				<div class="ttdn-text">
+					<h3>Thông tin doanh nghiệp & khách hàng</h3>
+				</div>
+				<div class="ttdn-if">
+					<div class="if-box">
+						<div class="ct-for-box">
+							<img src="assets/n.jpg" style="swidth="100%; height="100%";>
+						</div>
+						<div class="ct-for-text">
+							<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span style="font-weight: lighter;">Tin tức admin<br>Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</span></p>
+						</div>
+					</div>
+					<div class="if-box diff">
+						<div class="ct-for-box">
+							<img src="assets/m.jpg" style="swidth="100%; height="100%";>
+						</div>
+						<div class="ct-for-text">
+							<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span style="font-weight: lighter;">Tin tức admin<br>Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</span></p>
+						</div>
+					</div>
+					<div class="if-box diff2">
+						<div class="ct-for-box">
+							<img src="assets/k.jpg" style="swidth="100%; height="100%";>
+						</div>
+						<div class="ct-for-text">
+							<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span style="font-weight: lighter;">Tin tức admin<br>Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</span></p>
+						</div>
+					</div>
+					<div class="if-box">
+						<div class="ct-for-box">
+							<img src="assets/n.jpg" style="swidth="100%; height="100%";>
+						</div>
+						<div class="ct-for-text">
+							<p style="	font-weight:bold;">Công đoàn chi nhánh Bảo vệ Bình Dương tặng quà trung thu cho con em người lao động<br><br><span style="font-weight: lighter;">Tin tức admin<br>Sáng ngày 15/13//2015, Bảo vệ tổ chức tặng quà Trung thu cho con em cán bộ nhân viên đang làm...</span></p>
+						</div>
+					</div>
+				</div>
+			</div>	
+
+			<div class="cnbv">
+				<div class="cnbv-tx">
+				<div class="duongvien-sau" style="margin-left: 2em"></div>
+				<h3>Chi nhánh bảo vệ ngày và đêm</h3>
+				<div class="duongvien-sau"></div>
+				</div>
+				<div class="adr">
+					<div class="adr-vn">
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+
+					</div>	
+					<div class="adr-vn diff">
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+					</div>		
+					<div class="adr-vn">
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+						<div class="adr-ct-vn">
+							<p>Chi nhánh hà nội<br><span>Anh Thanh - 0908.355.441<br>nds.hanoi@nightdaysecurity.com</span></p>
+						</div>
+					</div>							
+				</div>
+
+				<div class="footer">
+					<div class="footer-left">
+						<div class="ft-top">
+							<h3>CÔNG TY TNHH DỊCH VỤ BẢO VỆ NGÀY VÀ ĐÊM</h3>
+							<ul>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Giấy xác nhận đủ điều kiện về ANTT dể kinh doah dịch vụ Bảo vệ</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+							</ul>
+						</div>
+						<div class="ft-top" style="	margin-top: 17px;">
+							<h3>VĂN PHÒNG CHÍNH QUẬN 2 0 TP.HCM:</h3>
+							<ul>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Giấy xác nhận đủ điều kiện về ANTT dể kinh doah dịch vụ Bảo vệ</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+								<li>Địa chỉ ĐKKD: 1231 Cu Chính Lan, TP Đà Nẵng</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-right">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookforDevelopers%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+					<div class="footer-below">
+						<ul>
+							<li><a href="#">Chính sách và quy định chung</a></li>
+							<li><a href="#">Chính sách bảo mật thông tin</a></li>
+							<li><a href="#">Chính sách cam kết chất lượng dịch vụ, bảo hành, bảo trì</a></li>
+							<li style="padding-left: 40px"><a href="#">Chính sách và quy định chung</a></li>
+							<li><a href="#">Chính sách bảo mật thông tin</a></li>
+						</ul> <br><br>
+						<p>Copyright 2020 <span>@ ghouse.com.vn. </span>Thiết kế và duy trì bởi <span> Đình Quân</span>
+						 </p>
+
+					</div>
+				</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+.menu .row{
+	height: 110px;
+}
+.menu{
+	background-image: linear-gradient(#2dc2e4,#0882b6);
+}
+.menu .col-md-3{
+	/*background: red;*/
+}
+
+
+.menu .col-md-2{
+	/*background-color: black;*/
+}
+.col-md-2 button{
+	margin-top: 1.6em;
+	height: 45px;
+	width: 68%;
+	border-radius: 5px;
+	border: 2px white solid;
+	background-image: linear-gradient(#0882b6 25%, #2dc2e4 60%, #0882b6 90%);
+}
+.col-md-2 button p{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.col-md-2 button:hover{	
+	background-image: linear-gradient(#075070 25%, #27afcd 60%, #075070 90%);
+	color: #e6e7f0;
+}
+
+.menu .col-md-7{
+/*	background: #CCC;*/
+	list-style: none;
+	position: relative;	
+}
+.col-md-7 .list ul{
+	list-style-type: none;
+/*	background-color: red;*/
+}
+.col-md-7 .list ul li a{
+	text-decoration: none;
+	color: white;
+/*	background-color: green;*/
+	font-size: 19px;
+}
+.col-md-7 .list ul li a span{
+	color: #34c3eb;
+	font-size: 15px;
+	display:block;
+}
+.col-md-7 .list ul li {
+	display: inline-table;
+/*	background: blue;*/
+	width: 14%;
+	height: 70px;
+	margin-top: 16px;
+	position: relative;
+}
+.col-md-7 .list ul li:hover>a{
+	color: #3248a8;
+	}
+.col-md-7 .list ul li:hover{
+	background: white;
+}

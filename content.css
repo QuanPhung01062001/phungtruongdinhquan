@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+.whitebox{
+	margin: 0;
+	padding:0;
+	width: 100%;
+	height: 1000px;
+/*	background-color: blue;*/
+	background-image: url(assets/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.whitebox .text{  /*Box chứa text*/
+	padding-top:  40px;
+	/*background-color: red;*/
+	width: 100%;
+	height: 80px;
+	margin-bottom: 55px;
+}
+.text h3{
+	color:  black;
+	float: left;
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+}
+.text .duongvien{
+	width: 500px;
+	/*height: 30px;*/
+/*	background-color: red;*/
+	border-top: 2px solid #CCC;
+	margin-top: 15px;
+	float: left;
+	opacity: 0.5;
+}
+.whitebox .circle{ /*Box chứa circles*/
+	width: 100%;
+	height:865px;
+	/*background-color: blue;*/
+}
+.circle .box-chua-cirlce{
+	width: 76%;
+	height: 800px;
+/*	background-color: pink;*/			/*Nền*/
+	margin: 0 auto;
+}
+.circle .box-chua-cirlce .box-trong-box-1{
+	width: 100%;
+	height: 300px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	float: left;
+}
+.circle .box-chua-cirlce .box-chua-chu{
+	width: 100%;
+	height: 100px;
+/*	background-color: green;*/
+	float: left;
+}
+.vongtron{
+	float: left;
+	width: 25%;
+	height: 300px;
+	border-radius: 50%;
+/*	background-color: red;*/
+	border: 12px solid white;
+		cursor: pointer;
+}
+.vongtron:hover{
+	border: 12px solid #27bce6;
+}
+.vongtron img{
+	width: 97%;
+	height: 97%;
+	border-radius: 50%;
+	padding-top: 3%;
+	padding-left: 3%;
+}
+.text-chu{
+	width: 25%;
+	height: 100%;
+	float: left;
+/*	background-color: pink;*/
+}
+.text-chu h4{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	padding-top: 25px;
+	cursor: pointer;
+}

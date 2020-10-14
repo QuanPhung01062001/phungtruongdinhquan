@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding: 0;
+}
+.cnbv{
+	width: 1900px;
+	height: 1000px;
+	background-color: #008bc6;
+	float: left;
+}
+.cnbv .cnbv-tx{
+	width: 80%;
+	height: 90px;
+	/*background-color: black;
+	opacity: 0.6;*/
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 3em;
+}
+.cnbv-tx .duongvien-sau{
+	width: 500px;
+	/*height: 30px;*/
+/*	background-color: red;*/
+	border-top: 2px solid #CCC;
+	margin-top: 5em;
+	float: left;
+	opacity: 0.5;
+}
+.cnbv-tx h3{
+	color:  white;
+	float: left;
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+	font-size: 27px;
+	padding-top: 2.3em;
+}
+.adr{
+	/*float: left;*/
+	/*background-color: green;*/
+	height: 800px;
+	width: 80%;
+	margin: 0 auto;
+}
+.adr .adr-vn{
+	width: 30%;
+	height: 100%;
+	/*background-color: blue;*/
+	/*opacity: 0.5;*/
+	float: left;
+}
+.adr .diff{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.adr-vn .adr-ct-vn{
+	width: 100%;
+	height: 170px;
+	/*background-color: green;*/
+	/*opacity: 0.7;*/
+	float: left;
+	/*margin-bottom: 15px;*/
+}
+.adr-vn .adr-ct-vn p{
+	color: white;
+	font-size: 19px;
+	float: left;
+	font-weight: bold;
+}
+.adr-vn .adr-ct-vn p span{
+	font-weight: lighter;
+	}

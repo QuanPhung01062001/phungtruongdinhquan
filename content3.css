@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+}
+.tvdv{
+	width: 1400px;
+	height: 720px;
+	/*background-color: black;*/
+	margin:0 auto;
+	margin-top: 4em;
+}
+.tvdv-bn{
+	width: 100%;
+	height: 70px;
+	background-color: #067fb4;
+}
+.tvdv-bn p{
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	padding-top: 18px;
+}
+.box-ct-callme{
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+/*	background-color: blue;*/
+}
+.box-ct-callme .callme{
+	width: 30%;
+	height: 140px;
+	/*background-color: gray;*/
+	float: left;
+}
+.box-ct-callme .diff{
+	margin-right:5%;
+	margin-left:5%;
+}
+.callme-ct-pic{
+	width: 24%;
+	height: 75%;
+	/*background-color: red;*/
+	float: left;
+}
+.callme-ct-text{
+	width: 70%;
+	height: 100%;
+	/*background-color: blue;*/
+	float: left;
+	margin-left: 18px;
+}
+.callme-ct-text .ct-txt-1{
+	width: 100%;
+	height: 70%;
+	/*background-color: #333;*/
+	float: left;
+	}
+.callme-ct-text .ct-txt-2{
+	width: 100%;
+	height: 30%;
+/*	background-color: #CCC;*/
+	float: left;
+}
+.callme-ct-pic img{
+	width: 100%;
+	height: 100%;
+}
+.callme-ct-text .ct-txt-1 p{
+	color: #777777; 
+	font-size: 19px;
+}
+.callme-ct-text .ct-txt-1 p span{
+	color:red; 
+}
+.callme-ct-text .ct-txt-2 p{
+	color: black; 
+	font-size: 19px;
+	font-weight:bold;
+}
+.banner{
+	width: 100%;
+	height: 280px;
+/*	background-color: red;*/
+	margin-top: 20px;
+	}
+.banner img{
+	width: 100%;
+	height: 100%;
+	}

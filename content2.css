@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bluebox{
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(#61e3fd,#067fb4);
+}
+.text-sau{
+	width: 100%;
+	height: 120px;
+	/*background:red;*/
+}
+.text-sau .duongvien-sau{
+	width: 500px;
+	/*height: 30px;*/
+/*	background-color: red;*/
+	border-top: 2px solid #CCC;
+	margin-top: 5em;
+	float: left;
+	opacity: 0.5;
+}
+.text-sau h3{
+	color:  white;
+	float: left;
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+	font-size: 24px;
+	padding-top: 2.7em;
+}
+.btw{
+	height: 460px;
+	width: 100%;
+	margin-top: 20px;
+	/*background: black;*/
+}
+.btw .leftbox{
+	width: 48%;
+	height: 85%;
+	/*background-color: red;*/
+	float: left;
+	margin-right: 2%;
+}
+.btw .rightbox{
+	float: left;
+	width: 28%;
+	height: 85%;
+	margin-left: 2%;
+	/*background-color: green;*/
+}
+.ohayo{
+	width: 80%;
+	height: 100%;
+	float: right;
+	border: 1px solid white;
+	border-radius: 30px;
+	}
+.ohayo .text-1{
+	/*background-color: #CCC;*/
+	width: 100%;
+	height: 12%;
+	margin-top: 45px;
+	}	
+.ohayo .text-1 p{
+	color: white;
+	text-align: center;
+	font-size: 17px;
+}
+.xaw{
+	width: 100%;
+	height: 7%;
+/*	background-color: black;*/
+	margin-top: 45px;
+}
+.xaw .left-xaw{
+	width: 50%;
+	height: 100%;
+/*	background-color: green;*/
+	float: left;
+}
+.xaw .right-xaw{
+	width: 50%;
+	height: 100%;
+	/*background-color: blue;*/
+	float: left;
+}
+.xaw .right-xaw h5{
+	color: white;
+	text-align: center;
+}
+.xaw .left-xaw h5{
+	color: white;
+	text-align: center;
+}
+.conso{
+	width: 100%;
+	height: 17%;
+/*	background-color: black;*/
+	margin-top: 45px;
+}
+.conso .left-conso{
+	width: 50%;
+	height: 100%;
+/*	background-color: green;*/
+	float: left;
+}
+.conso .right-conso{
+	width: 50%;
+	height: 100%;
+	/*background-color: blue;*/
+	float: left;
+}
+.conso .right-conso h2{
+	text-align: left;
+	color: white;
+	font-size: 50px;
+}
+.conso .left-conso h2{
+	text-align: left;
+	color: white;
+	font-size: 50px;
+}
+.address-dc{
+	width: 100%;
+	height: 25px;
+	/*background-color: black;*/
+	margin-top: 45px;
+}
+.address-dc .left-add{
+	width: 50%;
+	height: 100%;
+	/*background-color: green;*/
+	float: left;
+}
+.address-dc .right-add{
+	width: 50%;
+	height: 100%;
+	/*background-color: blue;*/
+	float: left;
+}
+.address-dc .right-add h3{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+.address-dc .left-add h3{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+.rightbox-aha{
+	/*background-color: #CCC;*/
+	width: 100%;
+	height: 90%;
+}
+.rightbox-aha p{
+	color: white;
+	font-size:17px;
+	line-height: 37px;
+}
+

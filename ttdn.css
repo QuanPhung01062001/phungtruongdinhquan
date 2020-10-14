@@ -1,0 +1,50 @@
+.ttdn{
+	width: 1600px;
+	height: 500px;
+	/*background-color: gray;*/
+	margin: 0 auto;
+	margin-top:40px;
+}
+.ttdn-text{
+	width: 100%;
+	height: 60px;
+	float: left;
+/*	background-color: red;*/
+}
+.ttdn-text h3{
+	color: black;
+	text-align: center;
+}
+.ttdn .ttdn-if{
+	width: 100%;
+	height: 450px;
+	/*background-color: green;*/
+	float: left;
+}
+.if-box{
+	width: 21.2%;
+	height: 90%;
+/*	background-color: blue;*/
+/*	opacity: 0.6;*/
+	float: left;
+}
+.ttdn-if .diff{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.ttdn-if .diff2{
+	margin-right: 5%;
+}
+.if-box .ct-for-box{
+	width: 100%;
+	height: 50%;
+	/*background-color: gray;*/
+	float: left;
+}
+.ct-for-text{
+	width: 100%;
+	height: 46%;
+	/*background-color: red;*/
+	float: left;
+	margin-top: 5%;
+}
